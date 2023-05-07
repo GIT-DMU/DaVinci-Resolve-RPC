@@ -1,0 +1,21 @@
+{
+  "name": "davinci-discord-rpc",
+  "version": "1.0.0",
+  "description": "discord rpc for davinci resolve",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && pip install pywin32",
+    "prod": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "esm": "^3.2.25",
+    "python-shell": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.0",
+    "typescript": "^5.0.4"
+  }
+}
